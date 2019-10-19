@@ -58,5 +58,5 @@ When you are done installing both the Heroku CLI and postgres, make sure to veri
 
 ### **Mac and Linux Users: please go [here ⇒](./setup_local_env.md)**
 
-
+Edited version.
 
