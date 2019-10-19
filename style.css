@@ -1,0 +1,98 @@
+H1 {
+    font-weight: bold;
+}
+
+body {
+	margin: 0;
+    width: 100%;
+    color:rgb(51, 6, 49);
+}
+
+.title{
+    margin:0;
+    font-size: 22px;
+}
+
+.subtitle{
+    margin:0;
+    font-size: 10px;
+}
+
+#logo{
+    margin-right: 5px;
+}
+
+#pizza{
+    width: 100%;
+}
+
+.icons {
+    float: right;
+    margin-top: 25px;
+}
+
+#date{
+    font-size:10px;
+}
+
+#print{
+    float: right;
+}
+
+#vanessa{
+    margin:0;
+    float:left;
+}
+.list-bg{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.grid-container{
+    width: 100%; 
+    max-width: 960px;
+    margin: 0 auto;      
+}
+
+/*-- our cleafix hack -- */ 
+.row:before, 
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+[class*='col-'] {
+    float: left; 
+    min-height: 1px;
+    width: 16.66%;
+    padding: 8px 0;
+}
+
+.col-1{ width: 16.66%; }
+.col-2{ width: 33.33%; }
+.col-3{ width: 50%;    }
+.col-4{ width: 66.66%; }
+.col-5{ width: 83.33%; }
+.col-6{ width: 100%;   }
+
+[class*='col-'] img {
+	padding: 1px 1px 1px 0;
+}
+
+.list-bg {
+	background-image: url(./assets/list-bg.png);
+}
+
+.red-button {
+	background-color: #bf2000;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
